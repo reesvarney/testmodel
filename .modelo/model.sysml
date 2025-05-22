@@ -22,7 +22,13 @@ readonly package system {
          doc Title /* Feature 1 */
          doc Description /*  */
     }
-     package requirements;
+     package requirements {
+         requirement def <'f1fc744f-d3ab-4d37-8e73-0e0a610a0f3e'> 'f1fc744f-d3ab-4d37-8e73-0e0a610a0f3e' {
+             doc Notes /*  */
+             doc Title /* Requirement 1 */
+            frame concern parent_feature defined by 'package_4ab4075f-137a-4607-b6af-3ea5e024d5d1';
+        }
+    }
      package use_cases;
      package logical_layer;
      package physical_layer;
