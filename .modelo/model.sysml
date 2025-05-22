@@ -29,7 +29,15 @@ readonly package system {
             frame concern parent_feature defined by 'package_4ab4075f-137a-4607-b6af-3ea5e024d5d1';
         }
     }
-     package use_cases;
+     package use_cases {
+         use case def <'fbcbf2e6-0b5a-4aa2-afdb-5146e7804952'> 'fbcbf2e6-0b5a-4aa2-afdb-5146e7804952' {
+             doc Notes /*  */
+             doc Title /* Use Case 1 */
+             objective <'a3052181-a793-4a75-a014-162fc6983605'> 'a3052181-a793-4a75-a014-162fc6983605' {
+                 doc <'1d31a54b-b0e1-4796-99bf-a28b37273e55'> '1d31a54b-b0e1-4796-99bf-a28b37273e55' /*  */
+            }
+        }
+    }
      package logical_layer;
      package physical_layer;
      package functional_layer {
