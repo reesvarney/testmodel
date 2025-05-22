@@ -37,6 +37,13 @@ readonly package system {
                  doc <'1d31a54b-b0e1-4796-99bf-a28b37273e55'> '1d31a54b-b0e1-4796-99bf-a28b37273e55' /*  */
             }
         }
+         use case def <'9c913b7a-3c0c-4f52-8753-c9f257a3e602'> '9c913b7a-3c0c-4f52-8753-c9f257a3e602' {
+             doc Notes /*  */
+             doc Title /* Use Case 2 */
+             objective <'9bb12888-82b9-4e0e-9743-b1bba5f41255'> '9bb12888-82b9-4e0e-9743-b1bba5f41255' {
+                 doc <'2f556b36-6fee-45da-9677-bd3483b9cc69'> '2f556b36-6fee-45da-9677-bd3483b9cc69' /*  */
+            }
+        }
     }
      package logical_layer;
      package physical_layer;
