@@ -6,9 +6,9 @@ readonly package system {
     }
      package requirements;
      package actors {
-         actor def <'1'> '998b6918-2639-437d-961d-43eac36c3e43' {
+         actor def '998b6918-2639-437d-961d-43eac36c3e43' {
              doc Notes /*  */
-             doc Title /* Actor 1 */
+             doc Title /* Actor 2 */
              doc Description /*  */
              doc Goals /*  */
              doc Frustrations /*  */
