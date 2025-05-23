@@ -23,3 +23,20 @@ readonly package system {
     }
 }
 
+ package 'package_48a8cd69-8e58-4f36-b968-ea81acaa47b9' {
+     concern <'21'> '48a8cd69-8e58-4f36-b968-ea81acaa47b9' {
+         doc Notes /*  */
+         doc Title /* Main Feature */
+         doc Description /*  */
+    }
+     package requirements;
+     package use_cases;
+     package logical_layer;
+     package physical_layer;
+     package functional_layer {
+        readonly part def <'21_product'> '48a8cd69-8e58-4f36-b968-ea81acaa47b9_product' specializes product {
+             doc Title /* Product */
+        }
+    }
+}
+
