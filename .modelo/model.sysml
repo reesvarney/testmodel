@@ -13,6 +13,13 @@ readonly package system {
              doc Goals /*  */
              doc Frustrations /*  */
         }
+         actor def <'20'> 'ba9ceb6f-f8a8-4f4c-b9f7-7a16669019a9' {
+             doc Notes /*  */
+             doc Title /* Actor 2 */
+             doc Description /*  */
+             doc Goals /*  */
+             doc Frustrations /*  */
+        }
     }
 }
 
