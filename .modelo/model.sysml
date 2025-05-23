@@ -27,13 +27,6 @@ readonly package system {
              doc Goals /*  */
              doc Frustrations /*  */
         }
-         actor def <'17'> 'daa97805-20ce-4284-aa3a-2d1b3dd781c5' {
-             doc Notes /*  */
-             doc Title /* 3214 */
-             doc Description /*  */
-             doc Goals /*  */
-             doc Frustrations /*  */
-        }
     }
 }
 
