@@ -30,7 +30,21 @@ readonly package system {
          doc Description /*  */
     }
      package requirements;
-     package use_cases;
+     package use_cases {
+         use case def <'29'> '70d6c979-9ae6-47bf-879e-1b5f060fbe4a' {
+             doc Notes /*  */
+             doc Title /* Use Case 1 */
+            first start;
+            then 'step_0';
+             action 'step_0' defined by 'faf283b0-5a15-4ce5-9e8e-e0c0a5e3fb50';
+            then 'step_1';
+             action 'step_1' defined by '13c36d8e-8089-4d2e-9238-d3f4836c1f64';
+            then done;
+             objective <'30'> '0b245af4-040a-4230-aa77-b18adf298647' {
+                 doc <'31'> 'aebff256-1db7-44ab-91e5-1dc16abe7487' /*  */
+            }
+        }
+    }
      package logical_layer;
      package physical_layer;
      package functional_layer {
@@ -44,7 +58,7 @@ readonly package system {
              action <'28'> '13c36d8e-8089-4d2e-9238-d3f4836c1f64' {
                  doc Notes /*  */
                  doc Title /* Operation 2 */
-                out returnValue defined by ;
+                out returnValue = by;
             }
         }
     }
