@@ -29,7 +29,13 @@ readonly package system {
          doc Title /* Main Feature */
          doc Description /*  */
     }
-     package requirements;
+     package requirements {
+         requirement def <'32'> 'c6a5e746-3eaf-4370-95d3-2077df9b2da6' {
+             doc Notes /*  */
+             doc Title /* Requirement 1 */
+            frame concern parent_feature defined by 'package_48a8cd69-8e58-4f36-b968-ea81acaa47b9';
+        }
+    }
      package use_cases {
          use case def <'29'> '70d6c979-9ae6-47bf-879e-1b5f060fbe4a' {
              doc Notes /*  */
