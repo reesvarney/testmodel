@@ -36,6 +36,11 @@ readonly package system {
      package functional_layer {
         readonly part def <'21_product'> '48a8cd69-8e58-4f36-b968-ea81acaa47b9_product' specializes product {
              doc Title /* Product */
+             action def <'22'> 'faf283b0-5a15-4ce5-9e8e-e0c0a5e3fb50' {
+                 doc Notes /*  */
+                 doc Title /* Operation 1 */
+                out returnValue defined by ;
+            }
         }
     }
 }
