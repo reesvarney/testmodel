@@ -41,11 +41,6 @@ readonly package system {
                  doc Title /* Operation 1 */
                 out returnValue = by;
             }
-             action <'26'> '17dce8ba-1b80-4483-8b8a-a86d40aa2eba' {
-                 doc Notes /*  */
-                 doc Title /* Operation 2 */
-                out returnValue defined by ;
-            }
         }
     }
 }
