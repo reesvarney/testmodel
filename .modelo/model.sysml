@@ -39,6 +39,11 @@ readonly package system {
              action def <'22'> 'faf283b0-5a15-4ce5-9e8e-e0c0a5e3fb50' {
                  doc Notes /*  */
                  doc Title /* Operation 1 */
+                out returnValue = by;
+            }
+             action <'23'> 'a73745c8-5326-4220-817b-9fac1e4cc4a1' {
+                 doc Notes /*  */
+                 doc Title /* Operation 2 */
                 out returnValue defined by ;
             }
         }
