@@ -46,8 +46,9 @@ readonly package system {
             then 'step_1';
              action 'step_1' defined by '13c36d8e-8089-4d2e-9238-d3f4836c1f64';
             then done;
-             objective <'30'> '0b245af4-040a-4230-aa77-b18adf298647' {
-                 doc <'31'> 'aebff256-1db7-44ab-91e5-1dc16abe7487' /*  */
+             objective <'33'> '07d6a115-f8e4-4915-90f2-b7cb547521a4' {
+                 doc <'34'> '5f5aa06d-4a66-4398-badb-0ecf00a690de' /*  */
+                 require 'c6a5e746-3eaf-4370-95d3-2077df9b2da6';
             }
         }
     }
